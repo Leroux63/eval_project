@@ -1,0 +1,68 @@
+.bas{
+    display: flex;
+    flex-direction: row;
+    background-color: #e8d9c5;
+    justify-content: space-between;
+
+}
+.left,.middle,.right{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+ul{
+    color: #697990;
+    }
+
+.footlog{
+    width: 200px;
+    height: 100px;
+}
+.decouv{
+    width:300px;
+    height: 100px;
+    background-color: #2d3f63;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: auto;
+    position: absolute;
+    margin-top:300px;
+}
+.linkf{
+    color:#2d3f63;
+    list-style: none;
+    text-decoration: none;
+}
+.linkfo{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+.btn-break-city-booked3{
+    background-color: #2d3f63;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+.middle{
+    align-items: center;
+}
+.btn-break-city-booked2{
+    background-color: #c5cad3;
+    color: #697990;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.left{
+    margin-left: 15px;
+}
+a:hover{
+    color:#2d3f63 ;
+    text-transform: uppercase;
+}
+hfoot{
+    text-decoration: underline;
+}

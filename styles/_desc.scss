@@ -1,0 +1,58 @@
+.desc{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.picture{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+}
+.text{
+    width: 40%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #697990;
+    font-size: 19px;
+    position: relative;
+  
+}
+h2{
+    color: #2d3f63;
+    font-size: 32px;
+}
+
+@media screen and (max-width : 700px) {
+    .desc{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 20px;
+    }
+    .text{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .decouv{
+        width:300px;
+        height: 100px;
+        background-color: #2d3f63;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        vertical-align: auto;
+        position: absolute;
+       
+    }
+    .reserv{
+        margin-left: 30px;
+    }
+}

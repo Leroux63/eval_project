@@ -1,0 +1,59 @@
+@import "_header.scss";
+@import "_presentation.scss";
+@import "_cards.scss";
+@import "_desc.scss";
+@import "_foot.scss";
+@import "_form.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Palanquin+Dark&display=swap');
+
+
+:root {
+  --break-city-blue-light: #c5cad3;
+  --break-city-blue: #697990;
+  --break-city-blue-dark: #2d3f63;
+  --break-city-beige: #e8d9c5;
+  --font-icon: "Font Awesome 5 Free";
+  --font-icon: "Font Awesome 5 Free";
+  --font-title: "Palanquin Dark";
+  --font-text: "Lato";
+}
+
+@font-face {
+  font-family: "Palanquin Dark";
+  font-weight: bold;
+  src: url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"),
+    url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"),
+    url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"),
+    url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"),
+    url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"),
+    url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"),
+    url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
+}
+
+article,
+aside,
+figcaption,
+figure,
+footer,
+hgroup,
+main,
+section {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--break-city-beige);
+}
+body {
+  margin: 0;
+  padding: 0;
+}

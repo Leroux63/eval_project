@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato:wght@300;400&family=Palanquin+Dark&display=swap");
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header nav {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header ul {
+  display: flex;
+  list-style-type: none;
+  color: #2d3f63;
+  text-decoration: none;
+}
+.header a {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #2d3f63;
+  font-weight: 700;
+}
+
+.logo {
+  margin-left: 6%;
+  width: 200px;
+  height: 100px;
+}
+
+.reserver {
+  background-color: #c2c2c2;
+}
+
+presentation {
+  width: 100%;
+}
+
+h1 {
+  color: #2d3f63;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+h1 --font-title p {
+  color: #2d3f63;
+  text-align: justify;
+  font-size: 19px;
+}
+
+.bande {
+  width: 100%;
+  height: 100px;
+  background-color: #2d3f63;
+}
+.bande a {
+  padding-top: 10px;
+}
+
+.reserv {
+  width: 380px;
+  height: 80px;
+  background-color: #697990;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  vertical-align: auto;
+  margin-left: 425px;
+  margin-top: 20px;
+}
+
+.btn-break-city-booked {
+  background-color: #e8d9c5;
+  color: #2d3f63;
+  border-radius: 15px;
+}
+
+.card-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-radius: 25%;
+}
+
+.card {
+  background-color: #e8d9c5;
+}
+
+.fa-solid fa-right {
+  color: #e8d9c5;
+}
+
+.card-group {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img-top {
+  background-color: #e8d9c5;
+  height: 200px;
+  width: 100%;
+  border-radius: 25px;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.desc {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.picture {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #697990;
+  font-size: 19px;
+  position: relative;
+}
+
+h2 {
+  color: #2d3f63;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 700px) {
+  .desc {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .decouv {
+    width: 300px;
+    height: 100px;
+    background-color: #2d3f63;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    vertical-align: auto;
+    position: absolute;
+  }
+
+  .reserv {
+    margin-left: 30px;
+  }
+}
+.bas {
+  display: flex;
+  flex-direction: row;
+  background-color: #e8d9c5;
+  justify-content: space-between;
+}
+
+.left, .middle, .right {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+ul {
+  color: #697990;
+}
+
+.footlog {
+  width: 200px;
+  height: 100px;
+}
+
+.decouv {
+  width: 300px;
+  height: 100px;
+  background-color: #2d3f63;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  vertical-align: auto;
+  position: absolute;
+  margin-top: 300px;
+}
+
+.linkf {
+  color: #2d3f63;
+  list-style: none;
+  text-decoration: none;
+}
+
+.linkfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-break-city-booked3 {
+  background-color: #2d3f63;
+  border: 0;
+  border-radius: 5px;
+  margin-left: 10px;
+}
+
+.middle {
+  align-items: center;
+}
+
+.btn-break-city-booked2 {
+  background-color: #c5cad3;
+  color: #697990;
+  border: 0;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.left {
+  margin-left: 15px;
+}
+
+a:hover {
+  color: #2d3f63;
+  text-transform: uppercase;
+}
+
+hfoot {
+  text-decoration: underline;
+}
+
+.disp {
+  background-color: #697990;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.buttoncontact {
+  justify-content: center;
+  margin-left: 350px;
+}
+
+:root {
+  --break-city-blue-light: #c5cad3;
+  --break-city-blue: #697990;
+  --break-city-blue-dark: #2d3f63;
+  --break-city-beige: #e8d9c5;
+  --font-icon: "Font Awesome 5 Free";
+  --font-icon: "Font Awesome 5 Free";
+  --font-title: "Palanquin Dark";
+  --font-text: "Lato";
+}
+
+@font-face {
+  font-family: "Palanquin Dark";
+  font-weight: bold;
+  src: url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff) format("woff"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.woff2) format("woff2"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.otf) format("otf"), url(../assets/fonts/Palanquin/PalanquinDark-Bold.ttf) format("ttf");
+}
+@font-face {
+  font-family: "Lato";
+  src: url(../assets/fonts/Lato/Lato-Regular.woff) format("woff"), url(../assets/fonts/Lato/Lato-Regular.woff2) format("woff2"), url(../assets/fonts/Lato/Lato-Regular.otf) format("otf"), url(../assets/fonts/Lato/Lato-Regular.ttf) format("ttf");
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+hgroup,
+main,
+section {
+  display: block;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--break-city-beige);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}/*# sourceMappingURL=styles.css.map */
